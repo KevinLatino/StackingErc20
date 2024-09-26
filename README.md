@@ -21,15 +21,15 @@ function compareStrings(string memory string1, string memory string2) public pur
 }
 ```
 
-## 🔧 Staking
+ Staking
 
 - **stake(uint256 _amount)**: Allows users to deposit tokens into the contract and start accumulating rewards.
 
-## 🔧 Token Withdrawal
+Token Withdrawal
 
 - **withdraw(uint256 _amount)**: Withdraw staked tokens while maintaining pending rewards.
 
-## 🔧 Reward Claiming
+Reward Claiming
 
 - **claimRewards()**: Claims the accumulated rewards up to the current moment. Rewards are calculated based on the blocks the user has staked.
 
