@@ -19,6 +19,7 @@ The `compareStrings` function is included, which allows comparing two strings us
 function compareStrings(string memory string1, string memory string2) public pure returns (bool) {
     return keccak256(abi.encodePacked(string1)) == keccak256(abi.encodePacked(string2));
 }
+```
 
 ## 🔧 Staking
 
